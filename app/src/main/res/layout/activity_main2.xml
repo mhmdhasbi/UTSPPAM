@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity2">
+
+    <ImageView
+        android:id="@+id/myImageView1"
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:contentDescription="TODO"
+        android:scaleType="fitStart"
+        android:src="@drawable/person_male_1"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="5dp"
+        tools:layout_editor_absoluteY="7dp" />
+
+    <TextView
+        android:id="@+id/user_id"
+        android:layout_width="175dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="-30dp"
+        android:layout_marginStart="70dp"
+        android:layout_toEndOf="@+id/myImageView1"
+        android:text="Hello, M Hasbi"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <ImageView
+        android:id="@+id/myImageView2"
+        android:layout_width="411dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="-5dp"
+        android:contentDescription="TODO"
+        android:scaleType="fitCenter"
+        android:src="@drawable/main_1"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="65dp"
+        tools:ignore="DuplicateIds,MissingConstraints" />
+
+    <TextView
+        android:layout_width="78dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="34dp"
+        android:layout_marginStart="46dp"
+        android:text="Store"
+        android:textColor="@color/coklat"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="361dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/store_location"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginStart="290dp"
+        android:layout_marginTop="-34dp"
+        android:gravity="center_vertical"
+        android:text="Cihampelas"
+        android:textColor="@color/coklat"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="295dp"
+        tools:layout_editor_absoluteY="361dp" />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="46dp"
+        android:text="Location"
+        android:textColor="@color/coklat"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="424dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginStart="260dp"
+        android:layout_marginTop="-30dp"
+        android:gravity="center_vertical"
+        android:text="Find on maps"
+        android:textColor="@color/coklat"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="255dp"
+        tools:layout_editor_absoluteY="431dp" />
+
+    <ImageView
+        android:layout_width="24dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="354dp"
+        android:layout_marginTop="-30dp"
+        android:src="@drawable/icon_maps1"
+        tools:layout_editor_absoluteX="356dp"
+        tools:layout_editor_absoluteY="431dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/see_menus"
+        android:layout_width="340dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/red"
+        android:text="See Menus"
+        android:textColor="#FFFFFF"
+        tools:layout_editor_absoluteX="43dp"
+        app:cornerRadius="0dp"
+        android:clickable="true"
+        tools:layout_editor_absoluteY="478dp"
+        tools:ignore="MissingConstraints" />
+
+</LinearLayout>

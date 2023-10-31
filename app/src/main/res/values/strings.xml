@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Food</string>
+    <string name="todo">TODO</string>
+    <string name="store">STORE</string>
+    <string name="Locatin">LOCATION</string>
+    <string name="Cihampelas">Cilenyi</string>
+
+    <!--Store Location-->
+    <string-array name="store_location">
+        <item>Cilenyi</item>
+        <item>Cibiru</item>
+        <item>Ujungberung</item>
+        <item>Cicaheum</item>
+        <item>Panyilekan</item>
+        <item>Bojongsoang</item>
+    </string-array>
+</resources>

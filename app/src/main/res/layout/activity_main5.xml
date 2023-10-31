@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity5">
+
+    <ImageView
+        android:id="@+id/myImageView"
+        android:layout_width="match_parent"
+        android:layout_height="272dp"
+        android:contentDescription="TODO"
+        android:scaleType="fitCenter"
+        android:src="@drawable/spagt_asliieumah1"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Spagheti yumiii"
+        android:layout_marginLeft="-120dp"
+        android:textColor="@color/coklat"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Price: Rp 45.000,00"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="-30dp"
+        android:textColor="@color/coklat"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="410dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:justificationMode="inter_word"
+        android:text="Spaghetti
+Cocok bagi anda yang ingin merasakan spaghetti original dengan bumbu yang oriental"
+        android:textColor="@color/coklat"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="400dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="10dp"
+        android:backgroundTint="@color/red"
+        android:text="Order Now"
+        android:textColor="#FFFFFF"
+        app:cornerRadius="0dp" />
+
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="400dp"
+        android:layout_marginLeft="10dp"
+        android:layout_height="49dp"
+        android:backgroundTint="@color/red"
+        android:text="Back"
+        android:textColor="#FFFFFF"
+        app:cornerRadius="0dp" />
+
+</LinearLayout>

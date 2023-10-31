@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity7">
+
+    <ImageView
+        android:id="@+id/myImageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-103dp"
+        android:contentDescription="TODO"
+        android:scaleType="fitCenter"
+        android:src="@drawable/steak_asliieumah1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="-120dp"
+        android:text="Steak Mercon"
+        android:layout_marginTop="-140dp"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Price: Rp 85.000,00"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="120dp"
+        android:textColor="@color/coklat"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="390dp"
+        android:layout_height="60dp"
+        android:gravity="start"
+        android:layout_marginTop="10dp"
+        android:justificationMode="inter_word"
+        android:layout_marginLeft="11dp"
+        android:text="Steak Cocok bagi anda yang ingin merasakan lezatnya daging steak dipadukan dengan kentang yang lezat"
+        android:textColor="@color/coklat"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="400dp"
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="49dp"
+        android:backgroundTint="@color/red"
+        android:text="Order Now"
+        android:textColor="#FFFFFF"
+        app:cornerRadius="0dp" />
+
+    <Button
+        android:id="@+id/backButton"
+        android:layout_marginLeft="12dp"
+        android:layout_width="400dp"
+        android:layout_height="49dp"
+        android:backgroundTint="@color/red"
+        android:text="Back"
+        android:textColor="#FFFFFF"
+        app:cornerRadius="0dp" />
+
+</LinearLayout>

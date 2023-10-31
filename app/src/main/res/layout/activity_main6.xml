@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity6">
+
+    <ImageView
+        android:id="@+id/myImageView"
+        android:layout_width="match_parent"
+        android:layout_height="272dp"
+        android:layout_marginTop="-10dp"
+        android:contentDescription="TODO"
+        android:scaleType="fitCenter"
+        android:src="@drawable/burger_asli1"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-50dp"
+        android:layout_marginLeft="-125dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Burger Granat"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Price: Rp 30.000,00"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/coklat"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:justificationMode="inter_word"
+        android:text="Pepperoni pizza adalah pizza yang memiliki topping daging pepperoni sapi asli. Di Italia, pepperoni disebut salame piccante (salami panas). Biasa menjadi bahan baku pizza di Amerika Serikat, yang sering mewakili 30% pelengkap. Pizza ini cocok untuk santap siang ataupun malam anda"
+        android:textColor="@color/coklat"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="400dp"
+        android:layout_marginLeft="12dp"
+        android:layout_height="49dp"
+        android:backgroundTint="@color/red"
+        android:text="Order Now"
+        android:layout_marginTop="10dp"
+        android:textColor="#FFFFFF"
+        app:cornerRadius="0dp" />
+
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="400dp"
+        android:layout_marginLeft="12dp"
+        android:layout_height="49dp"
+        android:backgroundTint="@color/red"
+        android:text="Back"
+        android:textColor="#FFFFFF"
+        app:cornerRadius="0dp" />
+
+</LinearLayout>
